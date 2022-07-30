@@ -24,22 +24,22 @@
 
 Ниже представлена таблица сравнения вычислительных ресурсов различных секвенаторов и облачного решения. Для NovaSeq 6000 указаны характеристики управляющего компьютера, так как обработка данных полностью перенесена в Illumina BaseSpace. Для облака указаны пиковые значения. Данные взяты из официальных спецификаций.
 
-|	<small>Прибор</small>	|	Процессор	|	Частота	|	Дата выпуска CPU	|	CPU	|	RAM	|	Время анализа	|
+|	<small>Прибор</small>	|	<small>Процессор</small>	|	<small>Частота</small>	|	<small>Дата выпуска CPU</small>	|	<small>CPU</small>	|	<small>RAM</small>	|	<small>Время анализа</small>	|
 |	:--------------------	|	:--------------------:	|	:--------------------:	|	:--------------------:	|	:--------------------:	|	:--------------------:	|	:--------------------:	|
-|	MiniSeq	|	Intel Core i7-4700EQ	|	2.40 GHz	|	2013	|	4	|	16 Гб	|	-	|
-|	MiSeq	|	Intel Core i7-2710QE	|	2.10 GHz	|	2011	|	4	|	16 Гб	|	-	|
-|	HiSeq 1000	|	Dual Intel Xeon X5560	|	2.30 GHz	|	2009	|	8	|	48 Гб	|	-	|
-|	HiSeq 1500/2000	|	Dual Intel Xeon E5-2630	|	2.30 GHz	|	2012	|	12	|	64 Гб	|	-	|
-|	HiSeq 2500	|	Dual Intel Xeon E5-2620	|	2.00 GHz	|	2012	|	12	|	64 Гб	|	-	|
-|	NextSeq 500/550	|	Dual Intel Xeon ES-2448L	|	1.80 GHz	|	2012	|	16	|	96 Гб	|	более 45 часов	|
-|	HiSeq 3000/4000/X	|	Dual Intel Xeon 5-2697 v2	|	2.70 GHz	|	2013	|	24	|	128 Гб	|	более 38 часов	|
-|	NovaSeq 6000	|	Intel Core i7-4700EQ	|	2.40 GHz	|	2013	|	4	|	16 Гб	|	-	|
-|	Облако XplainBio	|	Intel Xeon Ice Lake	|	2.6/3.8 GHz	|	2021	|	до 4096	|	8 192 Гб	|	менее 2 часов	|
+|	<small>MiniSeq</small>	|	<small>Intel Core i7-4700EQ</small>	|	<small>2.40 GHz</small>	|	<small>2013</small>	|	<small>4</small>	|	<small>16 Гб</small>	|	<small>-</small>	|
+|	<small>MiSeq</small>	|	<small>Intel Core i7-2710QE</small>	|	<small>2.10 GHz</small>	|	<small>2011</small>	|	<small>4</small>	|	<small>16 Гб</small>	|	<small>-</small>	|
+|	<small>HiSeq 1000</small>	|	<small>Dual Intel Xeon X5560</small>	|	<small>2.30 GHz</small>	|	<small>2009</small>	|	<small>8</small>	|	<small>48 Гб</small>	|	<small>-</small>	|
+|	<small>HiSeq 1500/2000</small>	|	<small>Dual Intel Xeon E5-2630</small>	|	<small>2.30 GHz</small>	|	<small>2012</small>	|	<small>12</small>	|	<small>64 Гб</small>	|	<small>-</small>	|
+|	<small>HiSeq 2500</small>	|	<small>Dual Intel Xeon E5-2620</small>	|	<small>2.00 GHz</small>	|	<small>2012</small>	|	<small>12</small>	|	<small>64 Гб</small>	|	<small>-</small>	|
+|	<small>NextSeq 500/550</small>	|	<small>Dual Intel Xeon ES-2448L</small>	|	<small>1.80 GHz</small>	|	<small>2012</small>	|	<small>16</small>	|	<small>96 Гб</small>	|	<small>более 45 часов</small>	|
+|	<small>HiSeq 3000/4000/X</small>	|	<small>Dual Intel Xeon 5-2697 v2</small>	|	<small>2.70 GHz</small>	|	<small>2013</small>	|	<small>24</small>	|	<small>128 Гб</small>	|	<small>более 38 часов</small>	|
+|	<small>NovaSeq 6000</small>	|	<small>Intel Core i7-4700EQ</small>	|	<small>2.40 GHz</small>	|	<small>2013</small>	|	<small>4</small>	|	<small>16 Гб</small>	|	<small>-</small>	|
+|	<small>Облако XplainBio</small>	|	<small>Intel Xeon Ice Lake</small>	|	<small>2.6/3.8 GHz</small>	|	<small>2021</small>	|	<small>до 4096</small>	|	<small>8 192 Гб</small>	|	<small>менее 2 часов</small>	|
 
 Сравнение времени обработки референсного образца GiaB/NIST NA12878/HG001 (Illumina HiSeq, Nextera Expanded Exome, набор файлов FASTQ общим размером 16 Гб доступен по [ссылке](http://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/NA12878/Garvan_NA12878_HG001_HiSeq_Exome/)) с помощью локального сервера и облачной платформы XplainBio. Большое время обработки на локальном сервере обусловлено тем, что инструмент HaplotypeCaller из набора GATK4 всегда работает в однопоточном режиме (несколько потоков использует только алгоритм PairHMM) и не может максимально эффективно загрузить все доступные процессорные мощности без применения кластерных/облачных технологий. Подробнее о методах параллелизации вычислений можно прочитать по [ссылке](perfomance.md).
 
-|	Тип анализа	|	Пайплайн BWA/GATK4	|	<small>Сервер\16 CPU, 64 Гб</small>	|	Облако XplainBio	|
+|	<small>Тип анализа</small>	|	<small>Пайплайн BWA/GATK4</small>	|	<small>Сервер<br/> 16&nbsp;CPU,&nbsp;64&nbsp;Гб</small>	|	<small>Облако XplainBio</small>	|
 |	:--------------------:	|	:--------------------:	|	:--------------------:	|	:--------------------:	|
-|	Без аннотирования	|	Adapter trimming, BWA-MEM, Dedup, BQSR, HaplotypeCaller+Strelka2+DRAGEN, CNN filtering, Hard filtering, метрики качества, оценка покрытия по экзонам	|	52ч 17м	|	3ч 11м	|
-|	С аннотированием	|	+ аннотирование по 26 базам данных	|	53ч 04м	|	3ч 40м	|
+|	<small>Без аннотирования</small>	|	<small>dapter trimming, BWA-MEM, Dedup, BQSR, HaplotypeCaller+Strelka2+DRAGEN, CNN filtering, Hard filtering, метрики качества, оценка покрытия по экзонам</small>	|	<small>52ч 17м</small>	|	<small>3ч 11м</small>	|
+|	<small>С аннотированием</small>	|	<small>+ аннотирование по 26 базам данных</small>	|	<small>53ч 04м</small>	|	<small>3ч 40м</small>	|
 
