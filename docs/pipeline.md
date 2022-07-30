@@ -36,6 +36,18 @@
 |	<small>NovaSeq 6000</small>	|	<small>Intel Core i7-4700EQ</small>	|	<small>2.40 GHz</small>	|	<small>2013</small>	|	<small>4</small>	|	<small>16 Гб</small>	|	<small>-</small>	|
 |	<small>Облако XplainBio</small>	|	<small>Intel Xeon Ice Lake</small>	|	<small>2.6/3.8 GHz</small>	|	<small>2021</small>	|	<small>до 4096</small>	|	<small>8 192 Гб</small>	|	<small>менее 2 часов</small>	|
 
+|	Прибор	|	Процессор	|	Частота	|	Дата выпуска CPU	|	CPU	|	RAM	|	Время анализа	|
+|	:--------------------	|	:--------------------:	|	:--------------------:	|	:--------------------:	|	:--------------------:	|	:--------------------:	|	:--------------------:	|
+|	MiniSeq	|	Intel Core i7-4700EQ	|	2.40 GHz	|	2013	|	4	|	16 Гб	|	-	|
+|	MiSeq	|	Intel Core i7-2710QE	|	2.10 GHz	|	2011	|	4	|	16 Гб	|	-	|
+|	HiSeq 1000	|	Dual Intel Xeon X5560	|	2.30 GHz	|	2009	|	8	|	48 Гб	|	-	|
+|	HiSeq 1500/2000	|	Dual Intel Xeon E5-2630	|	2.30 GHz	|	2012	|	12	|	64 Гб	|	-	|
+|	HiSeq 2500	|	Dual Intel Xeon E5-2620	|	2.00 GHz	|	2012	|	12	|	64 Гб	|	-	|
+|	NextSeq 500/550	|	Dual Intel Xeon ES-2448L	|	1.80 GHz	|	2012	|	16	|	96 Гб	|	более 45 часов	|
+|	HiSeq 3000/4000/X	|	Dual Intel Xeon 5-2697 v2	|	2.70 GHz	|	2013	|	24	|	128 Гб	|	более 38 часов	|
+|	NovaSeq 6000	|	Intel Core i7-4700EQ	|	2.40 GHz	|	2013	|	4	|	16 Гб	|	-	|
+|	Облако XplainBio	|	Intel Xeon Ice Lake	|	2.6/3.8 GHz	|	2021	|	до 4096	|	8 192 Гб	|	менее 2 часов	|
+
 Сравнение времени обработки референсного образца GiaB/NIST NA12878/HG001 (Illumina HiSeq, Nextera Expanded Exome, набор файлов FASTQ общим размером 16 Гб доступен по [ссылке](http://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/NA12878/Garvan_NA12878_HG001_HiSeq_Exome/)) с помощью локального сервера и облачной платформы XplainBio. Большое время обработки на локальном сервере обусловлено тем, что инструмент HaplotypeCaller из набора GATK4 всегда работает в однопоточном режиме (несколько потоков использует только алгоритм PairHMM) и не может максимально эффективно загрузить все доступные процессорные мощности без применения кластерных/облачных технологий. Подробнее о методах параллелизации вычислений можно прочитать по [ссылке](perfomance.md).
 
 |	<small>Тип анализа</small>	|	<small>Пайплайн BWA/GATK4</small>	|	<small>Сервер<br/> 16&nbsp;CPU,&nbsp;64&nbsp;Гб</small>	|	<small>Облако XplainBio</small>	|
