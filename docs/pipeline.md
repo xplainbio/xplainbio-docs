@@ -40,6 +40,6 @@
 
 |	<small>Тип анализа</small>	|	<small>Пайплайн BWA/GATK4</small>	|	<small>Сервер<br/> 16&nbsp;CPU,&nbsp;64&nbsp;Гб</small>	|	<small>Облако XplainBio</small>	|
 |	:--------------------:	|	:--------------------:	|	:--------------------:	|	:--------------------:	|
-|	<small>Без аннотирования</small>	|	<small>dapter trimming, BWA-MEM, Dedup, BQSR, HaplotypeCaller+Strelka2+DRAGEN, CNN filtering, Hard filtering, метрики качества, оценка покрытия по экзонам</small>	|	<small>52ч 17м</small>	|	<small>3ч 11м</small>	|
+|	<small>Без аннотирования</small>	|	<small>Adapter trimming, BWA-MEM, Dedup, BQSR, HaplotypeCaller+Strelka2+DRAGEN, CNN filtering, Hard filtering, метрики качества, оценка покрытия по экзонам</small>	|	<small>52ч 17м</small>	|	<small>3ч 11м</small>	|
 |	<small>С аннотированием</small>	|	<small>+ аннотирование по 26 базам данных</small>	|	<small>53ч 04м</small>	|	<small>3ч 40м</small>	|
 
