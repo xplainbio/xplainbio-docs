@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="95 130 370 196.71" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Roboto">@import url(https://fonts.googleapis.com/css2?family=Roboto%3Aital%2Cwght%400%2C100%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C700%3B0%2C900%3B1%2C100%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C700%3B1%2C900&amp;display=swap);</style>
+  </defs>
+  <rect width="105" height="60" style="stroke: rgb(0, 0, 0); fill: rgb(183, 225, 205); vector-effect: non-scaling-stroke;" y="150" x="125"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="141.769" y="206.96"> </text>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -14.868198, 55.660372)"><tspan x="192.973" y="122.97">Истинноположительные</tspan><tspan x="192.973" dy="1.5em">​</tspan><tspan>TP</tspan></text>
+  <rect x="230" y="150" width="105" height="60" style="stroke: rgb(0, 0, 0); fill: rgb(183, 225, 205); vector-effect: non-scaling-stroke;"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="247.337" y="206.96"> </text>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 90.699366, 55.661081)"><tspan x="192.973" y="122.97">Ложноположительные</tspan><tspan x="192.97300720214844" dy="1.5em">​</tspan><tspan>FP</tspan></text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="258.717" y="249.526"> </text>
+  <rect width="105" height="40" style="stroke: rgb(0, 0, 0); fill: rgb(183, 225, 205); vector-effect: non-scaling-stroke;" y="210.034" x="125"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="140.421" y="255.114"> </text>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -14.58427, 104.660503)"><tspan x="192.973" y="122.97">Ложноотрицательные<tspan x="192.97300720214844" dy="1.5em">​</tspan></tspan>FN</text>
+  <rect x="230" y="210" width="105" height="40" style="stroke: rgb(0, 0, 0); fill: rgb(183, 225, 205); vector-effect: non-scaling-stroke;"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="247.621" y="266.96"> </text>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 90.983279, 104.661212)"><tspan x="192.973" y="122.97">Истинноотрицательные</tspan><tspan x="192.97300720214844" dy="1.5em">​</tspan><tspan>TN</tspan></text>
+  <rect x="335" y="150" width="130" height="60" style="stroke: rgb(0, 0, 0); vector-effect: non-scaling-stroke; fill: rgb(244, 199, 195);"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; font-weight: 700; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 207.245596, 41.994855)"><tspan x="192.973" y="122.97">Прогностическая ценность </tspan><tspan x="192.973" dy="1.2em">​</tspan><tspan>положительных результатов</tspan><tspan x="192.973" dy="1.2em">​</tspan><tspan>Positive predictive value, PPV</tspan><tspan x="192.973" dy="1.2em">​</tspan><tspan>Precision</tspan><tspan x="192.973" dy="1.2em">​</tspan><tspan>= TP / (TP + FP)</tspan></text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="363.717" y="249.526"> </text>
+  <rect x="335" y="210" width="130" height="40" style="stroke: rgb(0, 0, 0); vector-effect: non-scaling-stroke; fill: rgb(144, 208, 233);"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="352.621" y="266.96"> </text>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 207.983038, 104.660976)" x="192.97300720214844" y="122.97000122070312">False omission rate<tspan x="192.97300720214844" dy="1.5em">​</tspan>= TN / (FN + TN)</text>
+  <rect width="105" height="60" style="stroke: rgb(0, 0, 0); vector-effect: non-scaling-stroke; fill: rgb(244, 199, 195);" y="250" x="125"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="141.769" y="308.433"> </text>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; font-weight: 700; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -15.867915, 142.134816)"><tspan x="192.973" y="122.97">Чувствительность</tspan><tspan x="192.973" dy="1.5em">​</tspan><tspan>Sensitivity</tspan><tspan x="192.973" dy="1.5em">​</tspan><tspan>Recall</tspan><tspan x="192.973" dy="1.5em">​</tspan><tspan>= TP / (TP + FN)</tspan></text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="275.168" y="270.995"> </text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="380.736" y="270.995"> </text>
+  <rect width="105" height="60" style="stroke: rgb(0, 0, 0); vector-effect: non-scaling-stroke; fill: rgb(144, 208, 233);" y="250" x="230"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="276.516" y="324.314"> </text>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 90.879367, 146.014866)"><tspan x="192.973" y="122.97">Специфичность</tspan><tspan x="192.973" dy="1.5em">​</tspan><tspan>Specificity</tspan><tspan x="192.973" dy="1.5em">​</tspan><tspan>= TN / (FP + TN)</tspan></text>
+  <rect width="210" height="20" style="stroke: rgb(0, 0, 0); vector-effect: non-scaling-stroke; fill: rgb(252, 232, 178);" y="130" x="125"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 11.2px;" x="142.336" y="142.211"> </text>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; text-anchor: middle; white-space: pre;" x="231.705" y="141.646">Референсная последовательность</text>
+  <rect width="30" height="100" style="stroke: rgb(0, 0, 0); vector-effect: non-scaling-stroke; fill: rgb(252, 232, 178);" y="150" x="95"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Roboto; font-size: 8px; text-anchor: middle; white-space: pre;" x="364.386" y="337.903" transform="matrix(0, -1, 1, 0, -228.64083, 563.481523)">Секвенированная <tspan x="364.385986328125" dy="1em">​</tspan>последовательность</text>
+</svg>
