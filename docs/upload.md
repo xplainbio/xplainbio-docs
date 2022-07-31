@@ -8,6 +8,6 @@
 
 ![Img](/assets/upload2.png){:class="fadedImg"}
 
-<img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/upload2.png" alt="drawing" box-shadow="0 0 20px 20px white inset";/>
+<img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/upload2.png" alt="drawing" box-shadow="0 0 20px 20px white inset"/>
 
 2.  
