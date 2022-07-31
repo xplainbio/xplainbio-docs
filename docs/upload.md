@@ -12,6 +12,6 @@
         &nbsp;</div>
 </div>
 
-<img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/upload2.png" class="shadow"></img>
+<img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/upload2.png" class="fadedImg"></img>
 
 2.  
