@@ -5,5 +5,7 @@
 Если комплект FASTQ-файлов (например, полный запуск с прибора) имеет стандартный для приборов Illumina [шаблон имени](https://support.illumina.com/help/BaseSpace_OLH_009008/Content/Source/Informatics/BS/NamingConvention_FASTQ-files-swBS.htm), то наиболее быстро и удобно запустить обработку следующим образом:
 
 1. После [создания](start.md) первого проекта откройте менеджер загрузки из разделов "Проекты" или "Файлы":
-<div style="fadedImg">![Img](/assets/upload2.png)</div>
+<div style="fadedImg">
+![Img](/assets/upload2.png)
+</div>
 2. 
