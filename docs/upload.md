@@ -8,7 +8,7 @@
 
 <div align="center">
     <div
-        style="background-image: url('https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/upload2.png'); box-shadow: 0 0 20px 20px white inset;">
+        style="background-image: url('https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/upload2.png'); width: 800px; height: 667px; box-shadow: 0 0 20px 20px white inset;">
         &nbsp;</div>
 </div>
 
