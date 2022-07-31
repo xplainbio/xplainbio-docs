@@ -8,4 +8,6 @@
 
 ![Img](/assets/upload2.png){:class="fadedImg"}
 
+<img src="/assets/upload2.png" alt="drawing" width="200"/>
+
 2. 
