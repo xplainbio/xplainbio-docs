@@ -6,8 +6,10 @@
 
 1. После [создания](start.md) первого проекта откройте менеджер загрузки из разделов "Проекты" или "Файлы":
 
-![Img](/assets/upload2.png){:class="fadedImg"}
-
-<img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/upload2.png" alt="drawing" style="width: 800px; height: 167px; box-shadow: 0 0 20px 20px white inset;"/>
+<div align="center">
+    <div
+        style="background-image: url('https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/upload2.png'); width: 800px; height: 167px; box-shadow: 0 0 20px 20px white inset;">
+        &nbsp;</div>
+</div>
 
 2.  
