@@ -13,3 +13,8 @@
 <div class="img" align="center">
 <img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/file_manager.png"></img>
 </div>
+
+3. Начнется загрузка файлов.
+<div class="img" align="center">
+<img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/file_upload.png"></img>
+</div>
