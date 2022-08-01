@@ -18,3 +18,8 @@
 <div class="img" align="center">
 <img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/file_upload.png"></img>
 </div>
+
+4. Во время загрузки можно перемещаться между окнами менеджера файлов кнопками "Вперед" и "Назад", а также вносить изменения в имена образцов, тип анализа и т.д.
+<div class="img" align="center">
+<img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/file_upload2.png"></img>
+</div>
