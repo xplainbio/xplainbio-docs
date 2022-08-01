@@ -8,6 +8,7 @@
 <div class="img" align="center">
 <img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/open_file_manager.png"></img>
 </div>
+
 2. Перетащите комплект файлов на область загрузки или выберете их через диалоговое окно. При необходимости укажите идентификатор сессии загрузки (например, дата, номер запуска и т.д.).
 <div class="img" align="center">
 <img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/file_manager.png"></img>
