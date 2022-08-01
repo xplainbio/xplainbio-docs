@@ -19,9 +19,28 @@
         word-wrap: break-word;
         text-align: center;
     }
-    .heatMap table+tr+td { background: #fce8b2; }
-    .heatMap tr+td+td { background: #f4c7c3; }
-    .heatMap td+td+td { background: #b7e1cd; }
+    img {
+  display: block;
+}
+
+.img {
+  border-radius: 20px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.img:before {
+  border-radius: 20px;
+  bottom: 0;
+  box-shadow: inset 0 0 10px 10px #000;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
 </style>
 </head>
 <body>
