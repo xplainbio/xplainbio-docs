@@ -5,7 +5,7 @@
 Если комплект FASTQ-файлов (например, полный запуск с прибора) имеет стандартный для приборов Illumina [шаблон имени](https://support.illumina.com/help/BaseSpace_OLH_009008/Content/Source/Informatics/BS/NamingConvention_FASTQ-files-swBS.htm), то наиболее быстро и удобно запустить обработку следующим образом:
 
 1. После [создания](start.md) первого проекта откройте менеджер загрузки из разделов "Проекты" или "Файлы":
-<div class="img">
+<div class="img" align="center">
 <img src="https://github.com/xplainbio/xplainbio-docs/raw/gh-pages/docs/assets/open_file_manager.png"></img>
 </div>
 2.  
