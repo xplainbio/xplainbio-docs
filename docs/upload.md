@@ -9,7 +9,6 @@
 ![Open File Manager](/assets/open_file_manager.png)
 </div>
 
-
 2. Перетащите комплект файлов на область загрузки или выберете их через диалоговое окно. При необходимости укажите идентификатор сессии загрузки (например, дата, номер запуска и т.д.).
 <div class="img" align="center">
 ![File Manager](/assets/file_manager.png)
