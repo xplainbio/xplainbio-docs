@@ -74,7 +74,7 @@
 
 <div class="img" align="center">
 
-![Variants1](/assets/variants2.png)
+![Variants2](/assets/variants2.png)
 </div>
 
 Поле __Флаги__ отображает наиболее важные характеристики вариантов, на которые следует обращать внимание при интерпретации:
